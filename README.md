@@ -1,5 +1,5 @@
 # PC-bSSFP-2Compartment
-Purpose: Simulation code for the description of PC-bSSFP signal profiles of two-compartment systems for different sign conventions. \\ 
+Purpose: Simulation code for the description of PC-bSSFP signal profiles of two-compartment systems for different sign conventions. \ 
 
 Background: This MATLAB code can be used for the simulation of PC-bSSFP profiles in two-compartment (singlet) systems. 
 Originally the code was developed for objective falsification of opposite and aligned phase sign models in two-compartment systems.
@@ -9,15 +9,15 @@ new published version.
 
 Codes: 
 -------
-i) "S_Simulation_twoCompartmens_PCbSSFP.m": 
-Contains the main code. By chaning the parameter "Is_Opposite" between boolean values: true or false
-different phase sign parameterizations can be investigated based on literature models. 
+i) "S_Simulation_twoCompartmens_PCbSSFP.m": \
+Contains the main code. By chaning the parameter "Is_Opposite" between boolean values: The values true or false
+different phase sign parameterizations can be investigated based on literature models, which is the core and main message of this code. 
 Basically this code only implements physical values like T1,T2,... and applies superposition principle "Stot=S1+S2" 
-of complex values for the respective single compartment signals. The single compartment signals are simulated in the remaining codes.
-ii) "S_bSSFP_AlignedSign.m": 
-Contains the aligned phase-sign parameterization based on published literaturer models.
-iii) "S_bSSFP_OppositeSign.m":  
-Contains the anti-aligned phase-sign parameterization based on published literaturer models.
+of complex values for the respective single compartment signals. The single compartment signals are simulated in the remaining codes. \
+ii) "S_bSSFP_AlignedSign.m": \
+Contains the aligned phase-sign parameterization based on published literaturer models.\
+iii) "S_bSSFP_OppositeSign.m":\  
+Contains the anti-aligned phase-sign parameterization based on published literaturer models.\
 
 Parameters and literature references are included, and explanations are provided within the code
 If you have questions or comments on the code, on the theory, phantom or experiment, feel free to contact me: 
