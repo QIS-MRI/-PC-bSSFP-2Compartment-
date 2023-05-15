@@ -9,8 +9,7 @@ new published version.
 
 Codes: \
 i) "S_Simulation_twoCompartmens_PCbSSFP.m": \
-Contains the main code. By chaning the parameter "Is_Opposite" between boolean values: The values true or false
-different phase sign parameterizations can be investigated based on literature models, which is the core and main message of this code. 
+Contains the main code. By chaning the parameter "Is_Opposite" the effect of different phase sign parameterizations can be investigated in two-compartment systems. These different parameterizations are all based on different published literature models. The investigation of these models with different predictions is the core and main message of this code. 
 Basically this code only implements physical values like T1,T2,... and applies superposition principle "Stot=S1+S2" 
 of complex values for the respective single compartment signals. The single compartment signals are simulated in the remaining codes. \
 ii) "S_bSSFP_AlignedSign.m": \
