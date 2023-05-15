@@ -7,8 +7,7 @@ A preliminary manuscript can be found on ArXiV https://arxiv.org/abs/2302.12548 
 This manuscript currently gets restructured and if it gets accepted for publication, I will update the link to the 
 new published version. 
 
-Codes: 
--------
+Codes: \
 i) "S_Simulation_twoCompartmens_PCbSSFP.m": \
 Contains the main code. By chaning the parameter "Is_Opposite" between boolean values: The values true or false
 different phase sign parameterizations can be investigated based on literature models, which is the core and main message of this code. 
