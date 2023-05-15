@@ -1,6 +1,6 @@
 function profile = S_bSSFP_SignParameterization(M0,T1,T2,alpha,phi,TR,TE,deltaCS,dB0,B0,sigmaTR,sigmaTE,sigmaphi,GlobalPhase)
 
-% Description: generation of PC-bSSFP profiles for opposite signs
+% Description: generation of PC-bSSFP profiles for parameterized signs
 
 % Author of function: 
 % Nils MJ Plähn, Bern, Switzerland
