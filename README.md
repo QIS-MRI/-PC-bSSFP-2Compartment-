@@ -19,7 +19,9 @@ iii) "S_bSSFP_OppositeSign.m":\
 Contains the anti-aligned phase-sign parameterization based on published literaturer models.\
 2) More general descriptions: \
 i) "S_Simulation_twoCompartment_PCbSSFP_parameterized.m": \
-Is similar to 1) but here all the phase signs of a single compartment PC-bSSFP profile can be parameterized in order to investigate all different combinations. The sign parameterization can be tuned via the parameters sigmaTR, sigmaTE, sigmaphi and GlobalPhase. They are properly simulated in  "S_bSSFP_SignParameterization.m
+Is similar to 1) but here all the phase signs of a single compartment PC-bSSFP profile can be parameterized in order to investigate all different combinations. The sign parameterization can be tuned via the parameters sigmaTR, sigmaTE, sigmaphi and GlobalPhase. They are properly simulated in  "S_bSSFP_SignParameterization.m"
+ii) "S_bSSFP_SignParameterization.m":\
+Simulates all possible phase sign parameterizations for single compartment PC-bSSFP profiles which are in "S_Simulation_twoCompartment_PCbSSFP_parameterized.m" superimposed. 
 
 Parameters and literature references are included, and explanations are provided within the code
 If you have questions or comments on the code, on the theory, phantom or experiment, feel free to contact me: 
