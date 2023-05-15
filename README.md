@@ -1,5 +1,5 @@
 # PC-bSSFP-2Compartment
-Purpose: Simulation code for the description of PC-bSSFP signal profiles of two-compartment systems for different sign conventions 
+Purpose: Simulation code for the description of PC-bSSFP signal profiles of two-compartment systems for different sign conventions. \\ 
 
 Background: This MATLAB code can be used for the simulation of PC-bSSFP profiles in two-compartment (singlet) systems. 
 Originally the code was developed for objective falsification of opposite and aligned phase sign models in two-compartment systems.
